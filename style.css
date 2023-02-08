@@ -1,0 +1,22 @@
+/* 
+    Google Fonts Links 
+        font-family: 'Kanit', sans-serif;
+        font-family: 'Manrope', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500;600;700&family=Manrope:wght@400;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --kenit: 'Kanit', sans-serif;
+    --man: 'Manrope', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--kenit);
+}
