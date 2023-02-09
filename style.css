@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6{
 
 /* Hero Area CSS */
 .hero-content{
-    height: 60vh;
+    height: 600px;
     background: linear-gradient(0deg, rgba(38, 35, 35, 0.514), rgba(44, 44, 44, 0.373)), url(./assets/image/banner.jpg);
     background-repeat:no-repeat;
     background-position: bottom center;
