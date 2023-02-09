@@ -19,7 +19,7 @@
         <header class="header">
 
             <div class="header-top py-5 bg-secondary text-white">
-                <div class="container d-flex justify-content-between align-items-center">
+                <div class="container d-flex justify-content-between align-items-center flex-column gap-3">
                     <div class="d-flex logo-area">
                         <div>
                             <a class="text-decoration-none d-flex gap-2" href="index.html">
@@ -37,7 +37,7 @@
                     </div>
                     <div class="header-contact d-flex gap-5">
                         <div class="d-flex gap-3 justify-content-center align-items-center">
-                            <i class="p-3 border border-2 rounded fs-4 fa-solid fa-phone"></i>
+                            <i class="p-2  border border-2 rounded fs-4 fa-solid fa-phone"></i>
                             <div class="mt-3">
                                 <span>
                                     (+984) 256 897 22
@@ -49,7 +49,7 @@
                             
                         </div>
                         <div class="d-flex gap-3 justify-content-center align-items-center">
-                            <i class="p-3 border border-2 rounded fs-4 fa-solid fa-envelope-open-text"></i>
+                            <i class="p-2 border border-2 rounded fs-4 fa-solid fa-envelope-open-text"></i>
                             <div class="mt-3">
                                 <span>
                                     info@domain.com
@@ -61,7 +61,7 @@
                             
                         </div>
                         <div class="d-flex gap-3 justify-content-center align-items-center">
-                            <i class="p-3 border border-2 rounded fs-4 fa-solid fa-location-dot"></i>
+                            <i class="p-2 border border-2 rounded fs-4 fa-solid fa-location-dot"></i>
                             <div class="mt-3">
                                 <span>
                                     San Andreas, USA
@@ -76,69 +76,123 @@
                 </div>
             </div>
 
-            <div class="header-nav">
-                <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                    <div class="container">
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                          <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                          </li>
-                          <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Dropdown
-                            </a>
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="#">Action</a></li>
-                              <li><a class="dropdown-item" href="#">Another action</a></li>
-                              <li><hr class="dropdown-divider"></li>
-                              <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                          </li>
-                        </ul>
-                        <div class="social">
-                            <ul>
-                                <li>
-                                    <i>
-                                        <a href="#"></a>
-                                    </i>
+            <div class="header-nav bg-primary">
+                <div class="container d-flex align-items-center justify-content-between">
+                    <nav class="navbar navbar-expand-lg bg-primary py-3">
+                        <div class="container">
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-uppercase menu">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        home
+                                    </a>
+                                    <ul class="dropdown-menu bg-primary">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    </ul>
                                 </li>
-                                <li>
-                                    <i>
-                                        <a href="#"></a>
-                                    </i>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#">about us</a>
                                 </li>
-                                <li>
-                                    <i>
-                                        <a href="#"></a>
-                                    </i>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        services
+                                    </a>
+                                    <ul class="dropdown-menu bg-primary">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    </ul>
                                 </li>
-                                <li>
-                                    <i>
-                                        <a href="#"></a>
-                                    </i>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        projects
+                                    </a>
+                                    <ul class="dropdown-menu bg-primary">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    </ul>
                                 </li>
-                                <li>
-                                    <i>
-                                        <a href="#"></a>
-                                    </i>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        blogs
+                                    </a>
+                                    <ul class="dropdown-menu bg-primary">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#">contact</a>
                                 </li>
                             </ul>
                         </div>
-                      </div>
                     </div>
-                </nav>
+                    </nav>
+                    <div class="social">
+                        <ul class="d-flex gap-3 mb-0">
+                            <li class="list-group-item fs-3">
+                                <a href="#" class="py-2 px-3 rounded">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>  
+                                </i>
+                            </li>
+                            <li class="list-group-item fs-3">
+                                <a href="#" class="py-2 px-3 rounded">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                                </i>
+                            </li>
+                            <li class="list-group-item fs-3">
+                                <a href="#" class="py-2 px-3 rounded">
+                                    <i class="fa-brands fa-google"></i>
+                                </a>
+                            </li>
+                            <li class="list-group-item fs-3">
+                                  <a href="#" class="py-2 px-3 rounded">
+                                    <i class="fa-brands fa-instagram"></i>
+                                  </a>
+                            </li>
+                            <li class="list-group-item fs-3">
+                                  <a href="#" class="py-2 px-3 rounded">
+                                    <i class="fa-brands fa-pinterest"></i>
+                                  </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </header>
 
     <!-- Header Area Ends -->
+    
+    <!-- Hero Area Starts -->
 
+        <section class="hero-area">
+            <div class="hero-content container-fluid p-5 d-flex">
+                <div class="container d-flex flex-column justify-content-center align-items-center text-center text-light">
+                    <h3 class="fs-5">
+                        CONSTRUCTION BUSINESS
+                    </h3>
+                    <h1 class="display-4">
+                        WE CONSTRUCT YOUR DREAM <br>
+                        PROJECTS
+                    </h1>
+                    <p class="w-75 fs-5">
+                        Nibh natus volutpat sapien nullam ipsa lorem soluta placeat similique maecenas lacus! Nec dolorem aptent, perferendis minima diamlorem accusamus, proin urna quam.
+                    </p>
+                    <div class="m-3">
+                        <button class="px-4 py-2 text-uppercase btn btn-primary">learn more</button>
+                        <button class="px-4 py-2 text-uppercase btn btn-secondary">contact us!</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- Hero Area Ends -->
 
     
     <!-- Fontawesome js CDN Link -->

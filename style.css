@@ -20,3 +20,24 @@
 h1, h2, h3, h4, h5, h6{
     font-family: var(--kenit);
 }
+
+
+/* Header CSS */
+/* ------Nav Menu */
+.menu li a, .social .list-group-item > a {
+    color: #fff !important;
+}
+
+.social>ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.24);
+}
+
+/* Hero Area CSS */
+.hero-content{
+    height: 60vh;
+    background: linear-gradient(0deg, rgba(38, 35, 35, 0.514), rgba(44, 44, 44, 0.373)), url(./assets/image/banner.jpg);
+    background-repeat:no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    object-fit: cover;
+}
